@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .container {
-    width: 320px;
+    width: 360px;
     margin: 0 auto;
   }
 
@@ -182,5 +182,248 @@
     font-weight: 200;
     letter-spacing: 0.01em;
     margin: 0;
+  }
+
+  .part-2 {
+    width: 360px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .special {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .special_title {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #464646;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .special_pic1 {
+    display: none;
+    opacity: 55%;
+    object-fit: cover;
+    height: 250px;
+  }
+
+  .special_pic1:hover {
+    transition-duration: 0.3s;
+    opacity: 100%;
+  }
+
+  .special_text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #464646;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin: 0;
+  }
+
+  .part-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+
+  .part-3__title {
+    font-family: "Segoe UI", sans-serif;
+    color: #464646;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .part-3__subtitle {
+    font-family: "Segoe UI", sans-serif;
+    color: #383838;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .part-3__text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .part-3__input {
+    height: 35px;
+    width: 85%;
+    text-align: center;
+    border: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #686868;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  .part-3__input:focus {
+    outline: none;
+  }
+
+  .part-3__input:active::placeholder {
+    display: none;
+  }
+
+  .part-3__input-button {
+    margin-top: 10px;
+    height: 35px;
+    margin-left: 0;
+    background-color: rgb(195, 241, 255);
+    border: none;
+    border-radius: none;
+    font-family: "Segoe UI", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    color: #585858;
+  }
+
+  .part-3__input-button:hover {
+    background-color: rgb(152, 193, 255);
+  }
+
+  .part-3__input-button:focus {
+    outline: none;
+  }
+
+  .part-3__input-button:active {
+    background-color: rgb(144, 205, 255);
+    transition-duration: 0.05s;
+  }
+
+  .footer {
+    overflow: hidden;
+    background-color: rgb(133, 206, 255);
+    height: 600px;
+  }
+
+  .footer-wrap {
+    width: inherit;
+    margin: 0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__logo-text {
+    padding-left: 55px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .footer__logo-text span {
+    padding-left: 14px;
+    font-family: "Segoe UI", sans-serif;
+    color: #5f5f5f;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin: 0;
+  }
+
+  .footer__logo {
+    max-width: 100%;
+    opacity: 65%;
+  }
+
+  .footer__list {
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #464646;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin: 0;
+  }
+
+  .footer__el.main {
+    height: 20px;
+    padding-bottom: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: #464646;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    margin: 0;
+  }
+
+  .footer__item-5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+  }
+
+  .footer__list-5 {
+    padding-left: 47px;
+    text-align: center;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .footer .footer__list-icons {
+    padding-top: 15px;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+  }
+
+  .footer__el-icon {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+  }
+
+  .footer__vk {
+    opacity: 70%;
+    transform: scale(1.4);
+  }
+
+  .footer__twitter {
+    opacity: 70%;
+    transform: scale(0.9);
+  }
+
+  .footer__insta {
+    opacity: 70%;
+    transform: scale(0.9);
   }
 }
