@@ -326,7 +326,7 @@
   .footer {
     overflow: hidden;
     background-color: rgb(133, 206, 255);
-    height: 600px;
+    height: 850px;
   }
 
   .footer-wrap {
@@ -343,6 +343,7 @@
     align-items: start;
     flex-direction: column;
     width: 100px;
+    margin-bottom: 30px;
   }
 
   .footer__logo-text span {
@@ -362,6 +363,7 @@
   }
 
   .footer__list {
+    margin-bottom: 30px;
     text-align: center;
     padding: 10px;
     list-style-type: none;
@@ -371,7 +373,10 @@
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.01em;
-    margin: 0;
+  }
+
+  .footer__el {
+    padding-bottom: 10px;
   }
 
   .footer__el.main {
@@ -387,19 +392,21 @@
   }
 
   .footer__item-5 {
+    padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
     width: 150px;
   }
 
   .footer__list-5 {
-    padding-left: 47px;
+    padding: 0;
     text-align: center;
     margin: 0;
     list-style-type: none;
   }
 
   .footer .footer__list-icons {
+    padding-left: 20px;
     padding-top: 15px;
     margin: 0;
     display: flex;
@@ -409,21 +416,21 @@
   .footer__el-icon {
     height: 30px;
     width: 30px;
-    padding-right: 5px;
+    padding-right: 20px;
   }
 
   .footer__vk {
     opacity: 70%;
-    transform: scale(1.4);
+    transform: scale(1.6);
   }
 
   .footer__twitter {
     opacity: 70%;
-    transform: scale(0.9);
+    transform: scale(1.1);
   }
 
   .footer__insta {
     opacity: 70%;
-    transform: scale(0.9);
+    transform: scale(1.1);
   }
 }
